@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Segoe Ui', 'open-sans';
+}
+
+.container {
+  background-image: url('https://www.fecaf.com.br/wp-content/uploads/2021/05/como-vencer-a-procrastinacao.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+  display: flex;
+}
+
+button {
+  margin: auto;
+  height: 100px;
+  width: 250px;
+
+  background-color: #1c2de1;
+  border: none;
+  border-radius: 20px;
+
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+
+  transition: ease-in-out .3s;
+}
+
+button:hover {
+  background-color: #e7e1ff;
+  color: #1c2de1;
+  transform: scale(1.1);
+}
